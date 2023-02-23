@@ -1,0 +1,271 @@
+*{
+    margin:0;
+    padding:0;
+}
+.header,.hero,.kittenCTA,.search{
+    display:flex
+}
+
+h1{
+    font-family:Poppins,sans-serif;
+    font-size:49px
+}
+.heroCTA p,p{
+    font-size:18px
+}
+p{
+    font-family:'League Spartan',sans-serif
+}
+.doctorsData,.navbar ul li,.priceText,.searchbox:focus,button{
+    font-family:'Poppins';
+}
+button{
+    padding:15px 20px;
+    font-size:15px;
+    color:#ffff;
+    border-radius:5px;
+}
+.yellowBtn{
+    background-color:#87CEEB;
+    border:2px solid #ffff;
+    margin:10px 0;
+}
+.header,.heroButtons button:first-child:hover,.heroButtons button:nth-child(2):hover,.yellowBtn:hover, .singleImgBox button:hover{
+    background-color:#66adc9;
+}
+.logo{
+    margin:10px 0 10px 80px
+}
+.logo img{
+    width:100px;
+    height:100px
+}
+.search{
+    flex-direction:row-reverse;
+    align-items:center;
+    margin-left:100px;
+    margin-top:2px
+}
+.searchimg{
+    width:60px;
+    height:48px;
+    margin-right:5px;
+    background-color:#F5F5F5;
+}
+.hero,.imgBoxSec,.searchbox{
+    background-color:#87CEEB;
+}
+.searchbox{
+    width:200px;
+    height:42px;
+    text-align:center;
+    border:3px solid #F5F5F5;
+}
+.searchbox::placeholder{
+    color:#ffff;
+    font-size:18px;
+    font-family:Poppins;
+    padding-right:30px
+}
+.searchbox:focus{
+    color:#ffff;
+    font-size:18px;
+    outline:0;
+    padding-right:30px;
+    border-color:#00c0cb
+}
+.navbar ul{
+    margin-top:50px;
+    width:700px
+}
+.navbar{
+    margin-left:60px
+}
+.navbar ul li{
+    display:inline;
+    margin:30px 45px;
+    color:#fff;
+    font-size:20px;
+    letter-spacing:2px
+}
+ul li:hover{
+    color:black;
+}
+a{
+    text-decoration:none
+}
+.heroCTA{
+    width:60%;
+    padding:150px 0 100px 100px;
+    color:#fff
+}
+.imgBoxText,.imgBoxes{
+    color:#ffff;
+    text-align:center
+}
+.heroCTA p{
+    padding:20px 0
+}
+.heroButtons button{
+    margin:10px
+}
+.heroButtons button:first-child{
+    background-color:#00c0cb;
+    border:2px solid #00c0cb
+}
+.heroButtons button:nth-child(2){
+    background-color:transparent;
+    border:2px solid #ffff
+}
+.heroImg{
+    width:40%;
+    padding:50px 50px 0
+}
+#dogImg{
+    width:350px;
+    height:500px
+}
+.kittenCTA{
+    margin-top:100px
+}
+.kittenleft{
+    padding:130px 0 100px 100px;
+    width:50%
+}
+.kittenText {
+    /* margin:10px 0; */
+    color: #66ADC9;
+}
+.kittenVideo{
+    width:50%;
+    padding:100px 50px 0 100px
+}
+.imgBoxes,.statBox{
+    width:100%;
+    display:flex
+}
+.kittenVideo img{
+    width:400px;
+    height:400px;
+    box-shadow:-130px 130px 0 -100px #87CEEB;
+    background:linear-gradient(to top,#3204fdba,#9907facc),url(https://picsum.photos/1280/853/?random=1) top center no-repeat;
+}
+.imgBoxSec{
+    padding-left:50px;
+    padding-right:50px;
+}
+.imgBoxText{
+    padding:50px 180px;
+    text-align: center;
+}
+.imgBoxText h1{
+    margin:10px;
+    text-align:center;
+
+}
+.imgBoxes{
+    padding-bottom:50px;;
+}
+.imgBoxes h1{
+    font-size:35px;
+    padding-left:20px;
+    padding-right:20px;
+}
+.imgBoxes p{
+  padding-left:30px;
+padding-right:30px;
+}
+
+.imgBoxes img{
+    padding:30px;
+}
+.priceText{
+    display:flex;
+    margin-left:110px;
+    padding-bottom:20px;
+    font-size:25px;
+}
+.linePrice{
+    text-decoration:line-through;
+    text-decoration-thickness:0.4rem;
+    text-align:center;
+}
+.singleImgBox button{
+    background-color:#00c0cb;
+    border:2px solid #00c0cb;
+    font-size:20px;
+}
+.doctorsData{
+    color:#000;
+    margin-right:20px;
+}
+.doctorIcons img{
+    padding:10px;
+
+}
+.statBox{
+    background:linear-gradient(rgba(135,235,206,.8),rgba(31,45,61,.8)),url(./images/statsBack.png);
+    height:500px;
+    margin:100px 0;
+}
+.stats{
+    padding:100px 70px;
+    color:#ffff;
+    text-align:center;
+}
+.stats h1{
+    font-size:40px;
+        text-align: center;
+        /* #87CEEB
+        #87CEEB */
+}
+.posts{
+    text-align:center;
+    margin:0 50px;
+}
+.posts h1{
+    text-align:center;
+    margin:50px 0;
+}
+.singlePost{
+    box-shadow:2px 2px 4px rgba(0,0,0,.5);
+    margin:20px;
+    width:30%;
+}
+.singlePost h1{
+    color:#000;
+    font-size:30px;
+}
+.singlePost h5{
+    color:#00c0cb;
+    font-size:15px;
+}
+.singlePost img{
+    padding-left:10px;
+}
+.singlePost p{
+    color:#000;
+    font-size:15px;
+    padding:10px 0;
+}
+.singlePost p,h1,h5{
+    text-align:left;
+    margin:10px;
+}
+.footer{
+    background-color:#66adc9;
+    margin-top:100px;
+    display:flex;
+    color:#ffff;
+    width:100%;;
+}
+.footerSec ul{
+    padding-left:50px;
+    list-style:none;
+}
+.footerSec li{
+    padding:8px;
+}
+.footerSec{
+    padding:80px;
+}
